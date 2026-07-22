@@ -1,0 +1,41 @@
+/* ALIGNMENT */
+nav {
+    border: dotted red 2px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(128, 128, 128, 0.174);
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 500;
+}
+
+
+/* LOGO */
+.logo {
+    width: 100%;
+    border: dotted blue 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo.div.h1 {
+    border: dotted purple 2px;
+}
+
+/* LINKS */
+.links {
+    border: dotted green 2px;
+    display: flex;
+    flex-direction: row;
+
+/* TICKET BUTTON */
+.tickets {
+    border: dotted orange 2px;
+}
