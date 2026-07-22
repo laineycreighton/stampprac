@@ -1,0 +1,13 @@
+/* Colors */
+:root {
+  --white: #ffffff;
+}
+
+/*----- ROOT -----*/
+html, 
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
