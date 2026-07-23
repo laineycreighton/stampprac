@@ -1,0 +1,10 @@
+/* BACKGROUND */
+.App {
+    min-height: 100vh;
+    background-image: url(./assets/images/stampstage.JPEG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+     font-family: "Inter", sans-serif;
+}
