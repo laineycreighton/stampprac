@@ -8,7 +8,7 @@ import Footer from './components/Footer.jsx'
 
 //PAGES
 import Home from './pages/Home.jsx'
-// import Lineup from './pages/Lineup.jsx'
+import Lineup from './pages/Lineup.jsx'
 // import Experience from './pages/Experience.jsx'
 // import Info from './pages/Info.jsx'
 // import Map from './pages/Map.jsx'
@@ -43,12 +43,12 @@ function App() {
             element={<Home />}
           />
 
-          {/* <Route
+          <Route
           path="/lineup"
           element={<Lineup />}
         />
 
-        <Route
+        {/* <Route
           path="/experience"
           element={<Experience />}
         />
@@ -74,7 +74,7 @@ function App() {
         /> */}
 
         </Routes>
-        
+
       </main>
 
       {/*----- FOOTER -----*/}
