@@ -1,0 +1,15 @@
+/* ALIGNMENT */
+footer {
+    /* outline: yellow dashed 2px; */
+    width: 100%;
+    height: 3%;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    font-size: .7rem;
+    color: white;
+}

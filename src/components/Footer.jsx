@@ -10,7 +10,9 @@ import '../assets/css/Footer.css';
 export default function Footer() {
     return (
         <footer>
-            Footer
+
+            <p>© 2026 Stamphala. All rights reserved.</p>
+
         </footer>
     );
 }
