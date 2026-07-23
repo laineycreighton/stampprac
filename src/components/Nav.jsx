@@ -23,14 +23,14 @@ export default function Nav() {
                 </div>
 
                 <div>
-                    <h1>Stamphala</h1>
+                    <h1>STAMPHALA</h1>
                 </div>
 
                 {/*----- TICKET BUTTON SECTION -----*/}
                 <div className='tickets'>
 
                     <button>
-                        Tickets
+                        TICKETS
                     </button>
 
                 </div>
@@ -40,27 +40,27 @@ export default function Nav() {
             <div className='links'>
                 <div>
 
-                    Lineup
+                    LINEUP
 
                 </div>
                 <div>
 
-                    Experience
+                    EXPERIENCE
 
                 </div>
                 <div>
 
-                    Info
+                    INFO
 
                 </div>
                 <div>
 
-                    Map
+                    MAP
 
                 </div>
                 <div>
 
-                    Merch
+                    MERCH
 
                 </div>
             </div>
