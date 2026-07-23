@@ -7,7 +7,7 @@ import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
 
 //PAGES
-// import Home from './pages/Home.jsx'
+import Home from './pages/Home.jsx'
 // import Lineup from './pages/Lineup.jsx'
 // import Experience from './pages/Experience.jsx'
 // import Info from './pages/Info.jsx'
@@ -32,15 +32,18 @@ function App() {
       {/*----- NAV -----*/}
       <Nav />
 
-      {/*----- ROUTES -----*/}
-      {/* <Routes>
+      {/*----- CONTENT WRAPPER -----*/}
+      <main className="content-wrapper">
 
-        <Route
-          path="/"
-          element={<Home />}
-        />
+        {/*----- ROUTES -----*/}
+        <Routes>
 
-        <Route
+          <Route
+            path="/"
+            element={<Home />}
+          />
+
+          {/* <Route
           path="/lineup"
           element={<Lineup />}
         />
@@ -68,9 +71,11 @@ function App() {
         <Route
           path="/tickets"
           element={<Tickets />}
-        />
+        /> */}
 
-      </Routes> */}
+        </Routes>
+        
+      </main>
 
       {/*----- FOOTER -----*/}
       <Footer />

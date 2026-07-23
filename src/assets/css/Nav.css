@@ -1,24 +1,25 @@
-/* ALIGNMENT */
+/*----ALIGNMENT----*/
 nav {
     /* border: dotted red 2px; */
     position: fixed;
     top: 0;
     width: 100%;
-    height: 15%;
+    height: var(--nav-height);
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
+    flex-shrink: 0;
 
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 3px 10px rgba(128, 128, 128, 0.174);
+    z-index: 500;
 }
 
-/* STAMPHALA */
+/*----STAMPHALA----*/
 .logo {
     /* border: dotted blue 2px; */
     width: 100%;
@@ -38,7 +39,7 @@ nav {
     font-size: 4rem;
 }
 
-/* LINKS */
+/*----LINKS----*/
 .links {
     /* border: dotted green 2px; */
     width: 100%;
@@ -67,7 +68,7 @@ nav {
     height: 100%;
 }
 
-/* TICKET BUTTON */
+/*----TICKET BUTTON----*/
 .tickets {
     /* border: dotted rgb(255, 0, 0) 2px; */
     width: 25%;
