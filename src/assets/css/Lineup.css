@@ -1,0 +1,29 @@
+/*----ALIGNMENT----*/
+.lineup-container {
+    /* outline: dashed white 2px; */
+    width: 100%;
+    min-height: calc(100vh - var(--nav-height));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter", sans-serif;
+}
+
+/*----IMAGE----*/
+.lineup-container img {
+    width: clamp(350px, 55vw, 1000px);
+    height: auto;
+
+    display: block;
+    margin: 1rem auto;
+}
+
+/*----ARTISTS-----*/
+/* .artists-block {
+    outline: dashed greenyellow 2px;
+    width: 100%
+
+} */
