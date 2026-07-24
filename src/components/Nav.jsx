@@ -23,7 +23,9 @@ export default function Nav() {
                 </div>
 
                 <div>
-                    <h1>STAMPHALA</h1>
+                    <Link to="/" className="logo-link">
+                        <h1>STAMPHALA</h1>
+                    </Link>
                 </div>
 
                 {/*----- TICKET BUTTON SECTION -----*/}
@@ -38,33 +40,32 @@ export default function Nav() {
 
             {/*----- LINKS SECTION -----*/}
             <div className='links'>
-                <div>
 
+                <Link to="/lineup">
                     LINEUP
+                </Link>
 
-                </div>
-                <div>
 
+                <Link to="/experience">
                     EXPERIENCE
+                </Link>
 
-                </div>
-                <div>
 
+                <Link to="/info">
                     INFO
+                </Link>
 
-                </div>
-                <div>
 
+                <Link to="/map">
                     MAP
+                </Link>
 
-                </div>
-                <div>
 
+                <Link to="/merch">
                     MERCH
+                </Link>
 
-                </div>
             </div>
-
 
         </nav>
     )
